@@ -1,0 +1,4 @@
+.Sidebar {
+  border: solid black 1px;
+  grid-area: s;
+}
