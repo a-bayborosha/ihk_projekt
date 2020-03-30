@@ -1,4 +1,13 @@
 .Sidebar {
   border: solid black 1px;
   grid-area: s;
+  padding-top: 58vh;
+}
+.Buttons {
+  text-align: center;
+  margin-bottom: 20vh;
+}
+
+.Button {
+  margin-top: 70px;
 }
