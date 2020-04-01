@@ -1,4 +1,5 @@
 .Map {
   border: solid black 1px;
   grid-area: m;
+  overflow: hidden; /*verstekt alles was auser Komponent Groesser ist  */
 }
