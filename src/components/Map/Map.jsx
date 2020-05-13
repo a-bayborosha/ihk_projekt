@@ -1,11 +1,11 @@
 import React from "react";
 import classes from "./Map.module.css";
-import mapImg from "./../../img/map.jpg";
+import Image from "./Image/Image.jsx";
 
-const Map = () => {
+const Map = (props) => {
   return (
     <div className={classes.Map}>
-      <img src={mapImg} alt="" className={classes.mapImg} />
+      <Image />
     </div>
   );
 };
