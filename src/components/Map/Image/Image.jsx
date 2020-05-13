@@ -14,15 +14,15 @@ export default class Image extends React.Component {
       crs: L.CRS.Simple,
     });
 
-    // dimensions of the image
-    let w = 7665,
+    // size of the image
+    const w = 7665,
       h = 4305,
       url = "https://i.ibb.co/gjLWnLw/map.jpg";
 
     // calculate the edges of the image, in coordinate space
-    var southWest = map.unproject([0, h], map.getMaxZoom() - 1);
-    var northEast = map.unproject([w, 0], map.getMaxZoom() - 1);
-    var bounds = new L.LatLngBounds(southWest, northEast);
+    const southWest = map.unproject([0, h], map.getMaxZoom() - 1);
+    const northEast = map.unproject([w, 0], map.getMaxZoom() - 1);
+    const bounds = new L.LatLngBounds(southWest, northEast);
 
     // add the image overlay,
     // so that it covers the entire map
